@@ -1,0 +1,45 @@
+h2{
+
+font-size: 55px;
+margin-top: 35px;
+margin-bottom: 0px;
+text-align: center;
+text-shadow: 3px 3px black ;
+color: pink;
+
+}
+/*This up here is just a bunch of properties added to my header to make it look cool.*/
+@font-face {
+
+font-family:"NewRocker";
+src: url("https://www.fontspace.com/newrocker-font-f15707");
+src: url('NewRocker.woff2') format('woff2')
+
+}
+
+@import url("https://www.fontspace.com/newrocker-font-f15707");
+/*I don't know what parts of these font codes are important and what aren't but it took me a really
+long time to figure out how to import fonts from the web so I haven't deleted any of this because 
+idk what is vital.*/
+hr{
+    color: black;
+    border-style:solid;
+    border-width:7px;
+} /*This right here is my line under the main header. I just played around with some
+properties to get a thicker look.*/
+
+#ParkingLot {
+    float: right;
+}
+
+/*So with these ID right here, they are floating my images to the right 
+and left. The one on the left would've been there either way but I need to style
+all my elements. Here I used ID so I could put the parking lot pic on the right*/
+
+#CheeseOlives {
+    float: left;
+}
+
+#TextSec {
+    text-align: center;
+}

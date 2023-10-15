@@ -1,0 +1,44 @@
+h2 {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:xx-large;
+    color:lightpink;
+    text-shadow: 2px 2px black;
+}
+/*Just a styled header.*/
+table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+ th,td {
+    padding:8px;
+    text-align:left;
+    border-bottom:7px solid black;
+ }
+
+/*I wanted to use the nth child alternating rows thing here but I can't figure it
+out and I'm in a crunch. But this stuff right here is all making my table look ok.
+I love the hover feature it's a nice touch.*/
+ tr:hover {
+    background-color:gray;
+ }
+
+.Pics {
+    height:250px;
+    border-style:solid;
+    border-width: 3px;
+}
+
+/*This is my only class I have because there isn't really any places I need it.
+it is sort of pointless here I could've used ID for the same thing but I needed to class
+it. I put my img inside a div so that I could use text align to center it. My radio buttons and
+my submit are also in here.*/
+
+div {
+    text-align:center;
+}
+
+nav {
+    text-align:center;
+}
